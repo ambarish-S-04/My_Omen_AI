@@ -1,0 +1,40 @@
+# Environments & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases & local storage
+data/*.db
+data/*.sqlite3
+data/*.db-journal
+*.db
+*.sqlite3
+
+# Logs & temp files
+logs/
+*.log
+*.tmp
+*.temp
+
+# IDE & OS specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
